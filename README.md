@@ -48,7 +48,7 @@ Built with industry-standard patterns: **Application Factory**, **Blueprints**, 
 | Category | Features |
 |----------|----------|
 | **Authentication** | JWT-based auth with access & refresh tokens, secure password hashing (PBKDF2-SHA256), role-based user management |
-| **Student Management** | Full CRUD operations, email uniqueness validation, enrollment tracking, active/inactive status |
+| **Employee Management** | Full CRUD operations, email uniqueness validation, enrollment tracking, active/inactive status |
 | **Architecture** | Repository Pattern, Service Layer, Application Factory, Blueprint-based routing |
 | **API Design** | RESTful endpoints, versioned API (`/api/v1`), consistent JSON responses, comprehensive error handling |
 | **DevOps** | Docker multi-stage builds, Docker Compose support, GitHub Actions CI/CD, health checks |
@@ -1334,5 +1334,6 @@ SOFTWARE.
 <p align="center">
   Made with ❤️ using Flask
 </p>
+
 
 
