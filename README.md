@@ -1,4 +1,4 @@
-# 🎓 Student REST API
+# 🎓 Employee REST API
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-3.1-green?logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
@@ -6,7 +6,7 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A **production-ready** Flask REST API featuring **JWT authentication**, comprehensive **Student CRUD operations**, and a clean **Repository Pattern** architecture designed for seamless extensibility from JSON file storage to any database backend.
+A **production-ready** Flask REST API featuring **JWT authentication**, comprehensive **Employee CRUD operations**, and a clean **Repository Pattern** architecture designed for seamless extensibility from JSON file storage to any database backend.
 
 Built with industry-standard patterns: **Application Factory**, **Blueprints**, **Service Layer**, **Repository Abstraction**, **Docker**, and **GitHub Actions CI/CD**.
 
@@ -48,7 +48,7 @@ Built with industry-standard patterns: **Application Factory**, **Blueprints**, 
 | Category | Features |
 |----------|----------|
 | **Authentication** | JWT-based auth with access & refresh tokens, secure password hashing (PBKDF2-SHA256), role-based user management |
-| **Student Management** | Full CRUD operations, email uniqueness validation, enrollment tracking, active/inactive status |
+| **Employee Management** | Full CRUD operations, email uniqueness validation, enrollment tracking, active/inactive status |
 | **Architecture** | Repository Pattern, Service Layer, Application Factory, Blueprint-based routing |
 | **API Design** | RESTful endpoints, versioned API (`/api/v1`), consistent JSON responses, comprehensive error handling |
 | **DevOps** | Docker multi-stage builds, Docker Compose support, GitHub Actions CI/CD, health checks |
@@ -1334,3 +1334,6 @@ SOFTWARE.
 <p align="center">
   Made with ❤️ using Flask
 </p>
+
+
+
